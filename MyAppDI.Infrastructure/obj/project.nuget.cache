@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8K/0nZ8rGqGMhcQ2fdDVTO+KdYcKtn5viIim/YjVn+yt5QU+VBWLlzUn/EmU53EaW/uCzYe4VIHMhxEyLgo+Qw==",
+  "success": true,
+  "projectFilePath": "/home/edjogu/projects/MyAppDI/MyAppDI.Infrastructure/MyAppDI.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/home/edjogu/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

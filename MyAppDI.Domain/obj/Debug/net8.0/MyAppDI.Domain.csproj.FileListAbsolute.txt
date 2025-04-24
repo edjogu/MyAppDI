@@ -1,0 +1,11 @@
+/home/edjogu/projects/MyAppDI/MyAppDI.Domain/bin/Debug/net8.0/MyAppDI.Domain.deps.json
+/home/edjogu/projects/MyAppDI/MyAppDI.Domain/bin/Debug/net8.0/MyAppDI.Domain.dll
+/home/edjogu/projects/MyAppDI/MyAppDI.Domain/bin/Debug/net8.0/MyAppDI.Domain.pdb
+/home/edjogu/projects/MyAppDI/MyAppDI.Domain/obj/Debug/net8.0/MyAppDI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/edjogu/projects/MyAppDI/MyAppDI.Domain/obj/Debug/net8.0/MyAppDI.Domain.AssemblyInfoInputs.cache
+/home/edjogu/projects/MyAppDI/MyAppDI.Domain/obj/Debug/net8.0/MyAppDI.Domain.AssemblyInfo.cs
+/home/edjogu/projects/MyAppDI/MyAppDI.Domain/obj/Debug/net8.0/MyAppDI.Domain.csproj.CoreCompileInputs.cache
+/home/edjogu/projects/MyAppDI/MyAppDI.Domain/obj/Debug/net8.0/MyAppDI.Domain.dll
+/home/edjogu/projects/MyAppDI/MyAppDI.Domain/obj/Debug/net8.0/refint/MyAppDI.Domain.dll
+/home/edjogu/projects/MyAppDI/MyAppDI.Domain/obj/Debug/net8.0/MyAppDI.Domain.pdb
+/home/edjogu/projects/MyAppDI/MyAppDI.Domain/obj/Debug/net8.0/ref/MyAppDI.Domain.dll

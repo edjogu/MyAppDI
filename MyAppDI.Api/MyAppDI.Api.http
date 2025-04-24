@@ -1,0 +1,6 @@
+@MyAppDI.Api_HostAddress = http://localhost:5076
+
+GET {{MyAppDI.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

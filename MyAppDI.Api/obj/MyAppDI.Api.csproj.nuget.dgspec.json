@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/edjogu/projects/MyAppDI/MyAppDI.Api/MyAppDI.Api.csproj": {}
+  },
+  "projects": {
+    "/home/edjogu/projects/MyAppDI/MyAppDI.Api/MyAppDI.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/edjogu/projects/MyAppDI/MyAppDI.Api/MyAppDI.Api.csproj",
+        "projectName": "MyAppDI.Api",
+        "projectPath": "/home/edjogu/projects/MyAppDI/MyAppDI.Api/MyAppDI.Api.csproj",
+        "packagesPath": "/home/edjogu/.nuget/packages/",
+        "outputPath": "/home/edjogu/projects/MyAppDI/MyAppDI.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/edjogu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/edjogu/projects/MyAppDI/MyAppDI.Application/MyAppDI.Application.csproj": {
+                "projectPath": "/home/edjogu/projects/MyAppDI/MyAppDI.Application/MyAppDI.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/edjogu/projects/MyAppDI/MyAppDI.Application/MyAppDI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/edjogu/projects/MyAppDI/MyAppDI.Application/MyAppDI.Application.csproj",
+        "projectName": "MyAppDI.Application",
+        "projectPath": "/home/edjogu/projects/MyAppDI/MyAppDI.Application/MyAppDI.Application.csproj",
+        "packagesPath": "/home/edjogu/.nuget/packages/",
+        "outputPath": "/home/edjogu/projects/MyAppDI/MyAppDI.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/edjogu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/edjogu/projects/MyAppDI/MyAppDI.Domain/MyAppDI.Domain.csproj": {
+                "projectPath": "/home/edjogu/projects/MyAppDI/MyAppDI.Domain/MyAppDI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/edjogu/projects/MyAppDI/MyAppDI.Domain/MyAppDI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/edjogu/projects/MyAppDI/MyAppDI.Domain/MyAppDI.Domain.csproj",
+        "projectName": "MyAppDI.Domain",
+        "projectPath": "/home/edjogu/projects/MyAppDI/MyAppDI.Domain/MyAppDI.Domain.csproj",
+        "packagesPath": "/home/edjogu/.nuget/packages/",
+        "outputPath": "/home/edjogu/projects/MyAppDI/MyAppDI.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/edjogu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
