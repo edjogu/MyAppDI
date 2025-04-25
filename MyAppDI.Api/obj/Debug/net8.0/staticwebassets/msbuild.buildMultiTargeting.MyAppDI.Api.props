@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/MyAppDI.Api.props" />
-</Project>
