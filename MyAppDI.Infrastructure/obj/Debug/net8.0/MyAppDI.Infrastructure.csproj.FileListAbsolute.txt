@@ -8,6 +8,7 @@
 /home/edjogu/projects/MyAppDI/MyAppDI.Infrastructure/obj/Debug/net8.0/MyAppDI.Infrastructure.AssemblyInfoInputs.cache
 /home/edjogu/projects/MyAppDI/MyAppDI.Infrastructure/obj/Debug/net8.0/MyAppDI.Infrastructure.AssemblyInfo.cs
 /home/edjogu/projects/MyAppDI/MyAppDI.Infrastructure/obj/Debug/net8.0/MyAppDI.Infrastructure.csproj.CoreCompileInputs.cache
+/home/edjogu/projects/MyAppDI/MyAppDI.Infrastructure/obj/Debug/net8.0/MyAppDI.Infrastructure.sourcelink.json
 /home/edjogu/projects/MyAppDI/MyAppDI.Infrastructure/obj/Debug/net8.0/MyAppDI.Infrastructure.csproj.CopyComplete
 /home/edjogu/projects/MyAppDI/MyAppDI.Infrastructure/obj/Debug/net8.0/MyAppDI.Infrastructure.dll
 /home/edjogu/projects/MyAppDI/MyAppDI.Infrastructure/obj/Debug/net8.0/refint/MyAppDI.Infrastructure.dll

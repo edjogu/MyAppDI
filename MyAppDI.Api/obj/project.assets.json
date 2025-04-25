@@ -130,6 +130,19 @@
         "runtime": {
           "bin/placeholder/MyAppDI.Domain.dll": {}
         }
+      },
+      "MyAppDI.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MyAppDI.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyAppDI.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyAppDI.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -506,12 +519,18 @@
       "type": "project",
       "path": "../MyAppDI.Domain/MyAppDI.Domain.csproj",
       "msbuildProject": "../MyAppDI.Domain/MyAppDI.Domain.csproj"
+    },
+    "MyAppDI.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../MyAppDI.Infrastructure/MyAppDI.Infrastructure.csproj",
+      "msbuildProject": "../MyAppDI.Infrastructure/MyAppDI.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.15",
       "MyAppDI.Application >= 1.0.0",
+      "MyAppDI.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -542,6 +561,9 @@
           "projectReferences": {
             "/home/edjogu/projects/MyAppDI/MyAppDI.Application/MyAppDI.Application.csproj": {
               "projectPath": "/home/edjogu/projects/MyAppDI/MyAppDI.Application/MyAppDI.Application.csproj"
+            },
+            "/home/edjogu/projects/MyAppDI/MyAppDI.Infrastructure/MyAppDI.Infrastructure.csproj": {
+              "projectPath": "/home/edjogu/projects/MyAppDI/MyAppDI.Infrastructure/MyAppDI.Infrastructure.csproj"
             }
           }
         }

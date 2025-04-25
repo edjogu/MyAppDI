@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "8.0.15",
           "MyAppDI.Application": "1.0.0",
+          "MyAppDI.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
@@ -86,6 +87,14 @@
         "runtime": {
           "MyAppDI.Domain.dll": {}
         }
+      },
+      "MyAppDI.Infrastructure/1.0.0": {
+        "dependencies": {
+          "MyAppDI.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MyAppDI.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -150,6 +159,11 @@
       "sha512": ""
     },
     "MyAppDI.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyAppDI.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
