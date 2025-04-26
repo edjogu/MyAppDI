@@ -63,6 +63,73 @@ Este diagrama representa el flujo de dependencias entre capas, promoviendo el pr
 
 ---
 
+## 🚀 Endpoints Disponibles
+
+### 📄 GET /api/customers
+Obtiene la lista completa de clientes.
+
+**Ejemplo de respuesta:**
+```json
+[
+  {
+    "id": "25b97260-c50f-4496-9d4a-dc5bf256d071",
+    "name": "Ana López",
+    "email": "ana@example.com"
+  },
+  {
+    "id": "4ad830c2-7fb8-4504-98dc-53dd7b66d45e",
+    "name": "Carlos Ramírez",
+    "email": "carlos@example.com"
+  }
+]
+```
+
+### 📄 GET /api/customers/{id}
+Obtiene un cliente por su identificador único (**Guid**).
+
+**Parámetros:**
+- `id` (Guid): Identificador del cliente.
+
+**Ejemplo de solicitud:**
+```
+GET /api/customers/25b97260-c50f-4496-9d4a-dc5bf256d071
+```
+
+**Respuesta exitosa (200 OK):**
+```json
+{
+  "id": "25b97260-c50f-4496-9d4a-dc5bf256d071",
+  "name": "Ana López",
+  "email": "ana@example.com"
+}
+```
+
+**Respuesta de error (404 Not Found):**
+```json
+{
+  "title": "Not Found",
+  "status": 404,
+  "traceId": "00-..."
+}
+```
+
+---
+
+## 🔧 Correr localmente
+
+```bash
+dotnet build
+dotnet run --project MyAppDI.Api
+```
+
+Accede a Swagger UI en:
+
+```
+http://localhost:5076/swagger
+```
+
+---
+
 ## ✍️ Autor
 
 Edwar Guzman – @edjogu
