@@ -17,4 +17,11 @@ public class CustomerService
     {
         return _repository.GetAll();
     }
+
+    public Customer? GetCustomerById(Guid id)
+    {
+        var customers = _repository.GetAll();
+        return customers.FirstOrDefault(c => c.Id == id);
+
+    }
 }

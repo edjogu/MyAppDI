@@ -37,5 +37,23 @@ public class CustomersController : ControllerBase
     {
         var customers = _service.GetAllCustomers();
         return Ok(customers);
+    
+    }
+    /// <summary>
+    /// Obtiene un cliente por su ID.
+    /// </summary>
+    /// <param name="id">ID del cliente.</param>
+    /// <returns>Cliente encontrado.</returns>
+    /// <response code="200">Cliente encontrado.</response>
+    /// <response code="404">Cliente no encontrado.</response>
+    [HttpGet("{id}")]
+    public ActionResult<Customer?> GetById(Guid id)
+    {
+        var customer = _service.GetCustomerById(id);
+        if (customer == null)
+        {
+            return NotFound();
+        }
+        return Ok(customer);
     }
 }
