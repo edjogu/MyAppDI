@@ -1,0 +1,29 @@
+name: Build and Test (.NET)
+
+on:
+  push:
+    branches: [ develop, main, release ]
+  pull_request:
+    branches: [ develop, main, release ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore MyAppDI.sln
+
+    - name: Build solution
+      run: dotnet build MyAppDI.sln --no-restore --configuration Release
+
+    - name: Test solution
+      run: echo "No tests yet"
