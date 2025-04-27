@@ -1,0 +1,15 @@
+name: Commit message lint
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  commitlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint commit messages in PR
+        uses: wagoid/commitlint-github-action@v5
+        with:
+          configFile: .commitlintrc.json
