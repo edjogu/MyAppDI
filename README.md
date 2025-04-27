@@ -132,4 +132,4 @@ http://localhost:5076/swagger
 
 ## ✍️ Autor
 
-Edwar Guzman – @edjogu
+By Edwar Guzman – @edjogu
